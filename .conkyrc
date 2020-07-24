@@ -1,0 +1,13 @@
+
+conky.config = {
+out_to_console = true,
+out_to_x = false,
+background = false,
+update_interval = 2,
+total_run_times = 0,
+use_spacer = 'none',
+};
+conky.text = [[
+$mpd_smart | Battery ${battery BAT0} (${battery_time BAT0}) | $alignr${time %A %H:%M} ]
+]];
+
