@@ -9,6 +9,6 @@ if [ $(pamixer --get-mute) == true ]
 then
 	MUTE=" (MUTED)";
 fi
-xsetroot -name "[$MUTE Volume: $VOL% | Brightness: $XBACKLIGHT% $LINE ";
+xsetroot -name " [$MUTE Volume: $VOL% | Brightness: $XBACKLIGHT% $LINE ";
 done) &
 exec dwm
